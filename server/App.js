@@ -3,7 +3,7 @@ const app = express()
 
 app.use(express.json())
 
-const todos = require('./todos');
+const todos = require('./Users');
 
 
 app.get('/users' ,(req,res)=> {
